@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="title desc">
+  <title id="title">Selo da Casa da História</title>
+  <desc id="desc">Ex-líbris circular com livro aberto, pena e o nome Casa da História.</desc>
+  <defs>
+    <path id="upper" d="M 28 110 A 82 82 0 0 1 192 110"/>
+    <path id="lower" d="M 190 116 A 82 82 0 0 1 30 116"/>
+  </defs>
+
+  <g fill="none" stroke="#26231f">
+    <circle cx="110" cy="110" r="101" stroke-width="1.75"/>
+    <circle cx="110" cy="110" r="94" stroke-width=".85"/>
+    <circle cx="110" cy="110" r="70" stroke-width=".65" opacity=".72"/>
+    <circle cx="110" cy="110" r="66" stroke-width=".5" stroke-dasharray="1 4" opacity=".56"/>
+  </g>
+
+  <text fill="#26231f" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-weight="600" letter-spacing="3.4">
+    <textPath href="#upper" startOffset="50%" text-anchor="middle">CASA DA HISTÓRIA</textPath>
+  </text>
+  <text fill="#722f3f" font-family="Georgia, 'Times New Roman', serif" font-size="7.6" font-weight="600" letter-spacing="3.2">
+    <textPath href="#lower" startOffset="50%" text-anchor="middle">MEMÓRIA · ESCRITA</textPath>
+  </text>
+
+  <g fill="none" stroke="#26231f" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M52 113c20-5 39-1 58 12v40c-17-12-36-16-58-11zM168 113c-20-5-39-1-58 12v40c17-12 36-16 58-11z" stroke-width="2.15"/>
+    <path d="M58 120c17-2 32 2 46 12M58 128c17-2 32 2 46 12M58 136c17-2 32 2 46 12M162 120c-17-2-32 2-46 12M162 128c-17-2-32 2-46 12M162 136c-17-2-32 2-46 12" stroke-width=".85" opacity=".8"/>
+    <path d="M110 125v40M47 159c23-6 43-1 63 12M173 159c-23-6-43-1-63 12" stroke-width="1.4"/>
+    <path d="M44 164c25-6 46-1 66 12M176 164c-25-6-46-1-66 12" stroke-width=".7" opacity=".72"/>
+    <path d="M133 94c8-14 16-27 29-37 3-2 7-2 11-1-1 5-3 10-7 15-8 10-18 17-31 22M128 104c10-12 21-24 38-43M144 84l-2-11M151 76l-1-10M153 80l11-2M159 72l9-3" stroke-width="1.35"/>
+    <path d="M128 104l-3 4 5-1 5-14" stroke-width="1.15"/>
+  </g>
+
+  <g fill="#722f3f">
+    <path d="M110 48l2.8 7.2 7.2 2.8-7.2 2.8-2.8 7.2-2.8-7.2-7.2-2.8 7.2-2.8z"/>
+    <circle cx="30" cy="111" r="2.2"/>
+    <circle cx="190" cy="111" r="2.2"/>
+  </g>
+</svg>
